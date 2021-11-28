@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Movie</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Movies Catalog</h1>
+        <div class="ging">
+            <div class="left">
+                <form class="form" method="post" action="">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="ave" aria-label="ave" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="5" aria-label="5" aria-describedby="basic-addon1">
+                    </div>
+                    <select class="cinema form" name="select_all" required>
+                        <option disabled selected hidden>all</option>
+                        <option value="Spider_Man">Spider_Man</option>
+                        <option value="Iron_man">Iron_man</option>
+                        <option value="Transformers">Transformers</option>
+                    </select>
+                    <select class="cinema form" name="select_all" required>
+                        <option disabled selected hidden>reiting</option>
+                        <option value="Spider_Man">1</option>
+                        <option value="Iron_man">3</option>
+                        <option value="Transformers">5</option>
+                    </select>
+                    <button type="button" class="btn btn-primary form norm">Search</button>
+                </form>
+                <h3 class="markdf">Bookmarked movies</h3>
+                <div class="flig">
+                    <p>Avengers: Infinity war</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+                </div>
+                <div class="flig">
+                    <p>The Avengers</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+                </div>
+                <div class="flig">
+                    <p>12 Years a Slave</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+                </div>
+            </div>
+            
+            <div class="right">
+                <div class="nox">
+                    <h3 class="rest">Search result: 20</h3>
+                    <p class="use bg-info">Use the form on the left to search for a movie</p>
+                </div>
+                <ul class="movie-lists" id="movie-list">  
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

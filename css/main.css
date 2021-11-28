@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.movie-lists{
+    list-style-type: none;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list__item{
+    width: 350px;
+    height: 380px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00000031;
+    padding-left: 10px;
+}
+.ttd{
+    border-radius: 10px;
+    margin-left: -5px;
+}
+.btn{
+    margin-left: 3px;
+}
+.form{
+    width: 300px;
+}
+.cinema{
+    width: 300px;
+    height: 40px;
+    border-color: #cccccc;
+    border-radius: 3px;
+    color: #cccccc;
+}
+.cinema:nth-child(even){
+    margin-top: 15px;
+}
+.norm{
+    margin-left: -0px;
+    margin-top: 15px;
+}
+.ging{
+    display: flex;
+}
+.nox{
+    width: 800px;
+    margin-left: 50px;
+}
+.use{
+    width: 720px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.right, .left{
+    margin-top: 30px;
+}
+.flig{
+    border: 1px solid #0000004f;
+    padding: 10px;
+}
+.markdf{
+    margin-top: 30px;
+}
